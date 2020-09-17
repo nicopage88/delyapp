@@ -25,9 +25,7 @@
                   </h6>
 
                   <!-- Title -->
-                  <h1 class="header-title">
-                   Sección uno
-                  </h1>
+
                  
                 </div>
                

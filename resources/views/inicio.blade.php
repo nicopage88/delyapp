@@ -93,33 +93,7 @@
         </div>
       </section>
     <!--banner-->
-    <section class="bg-image-5">
-      <section class="parallax-container parallax-light" data-parallax-img="{{asset('images/parallax-03.png')}}"><div class="material-parallax parallax"><img src="{{asset('images/parallax-03.png')}}" alt="" style="display: block;"></div>
-        <div class="parallax-content">
-          <div class="container section-80 section-sm-top-140 section-sm-bottom-150 text-center">
-            <div class="row justify-content-xs-center">
-              <div class="col-sm-10 col-lg-6">
-                <h4 class="text-italic divider-custom-small-primary">{{$inicio->titulo_cabecera}}</h4>
-                <h2 class="text-uppercase text-italic offset-top-10 offset-sm-top-0">{{$inicio->titulo_principal}}</h2>
-                <div class="label-price offset-top-10">
-                  <div class="unit unit-horizontal unit-middle unit-spacing-xs">
-                    <div class="unit-left">
-                      <h1 class="text-accent">{{$inicio->precio}}</h1>
-                    </div>
-                    <div class="unit-body">
-                      <ul class="big text-left">
-                        <li>{{$inicio->titulo_producto}}</li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
+
     <!--services-->
     <section class="section-50 section-sm-130" style="background: {{$config->color_fondo_menu}} !important">
       <div class="container">

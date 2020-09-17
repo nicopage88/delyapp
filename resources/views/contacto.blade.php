@@ -22,7 +22,7 @@
           <div class="col-md-8">
             <h4 class="font-default text-center">Complete el formulario</h4>
             <p class="text-center">
-                Estamos disponibles 24/7 por correo electrónico o por teléfono. También puede usar nuestro formulario de contacto rápido para hacer una pregunta sobre nuestros servicios que ofrecemos regularmente. Estaremos encantados de responder sus preguntas..</p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque faucibus nisi non aliquam. Proin ut metus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget nisl consequat, interdum justo quis, luctus odio. Cras ut facilisis ipsum. Curabitur venenatis turpis in finibus consequat. Quisque interdum, nisl nec finibus maximus, felis nibh scelerisque nisl, in accumsan augue mauris vel diam. Praesent hendrerit volutpat nibh, sed semper tortor molestie eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc pretium pretium leo eu lacinia.</p>
 
             
                 @if(Session::has('success'))

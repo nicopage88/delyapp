@@ -266,11 +266,7 @@
                       Productos
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a href="{{route('index_oferta.producto')}}" class="nav-link {{ (request()->is('panel/data/productos/ofertas')) ? 'active' : '' }}">
-                      Ofertas
-                    </a>
-                  </li>
+
                 </ul>
               </div>
             </li>
@@ -284,23 +280,11 @@
                     <a href="{{route('admin.general')}}" class="nav-link {{ (request()->is('panel/configuraciones/general*')) ? 'active' : '' }}">
                       General
                     </a>
-                    <a href="{{route('index.seccion_uno')}}" class="nav-link {{ (request()->is('panel/configuraciones/seccion_uno*')) ? 'active' : '' }}">
-                      Sección uno
-                    </a>
-                    <a href="{{route('index.seccion_tres')}}" class="nav-link {{ (request()->is('panel/configuraciones/seccion_tres*')) ? 'active' : '' }}">
-                      Sección tres
-                    </a>
                     <a href="{{route('index.menu')}}" class="nav-link {{ (request()->is('panel/configuraciones/menu*')) ? 'active' : '' }}">
                       Menú
                     </a>
                     <a href="{{route('index.faq')}}" class="nav-link {{ (request()->is('panel/configuraciones/faq*')) ? 'active' : '' }}">
                       FAQ
-                    </a>
-                    <a href="{{route('index.galeria')}}" class="nav-link {{ (request()->is('panel/configuraciones/galeria*')) ? 'active' : '' }}">
-                      Galería
-                    </a>
-                    <a href="{{route('index.slider')}}" class="nav-link {{ (request()->is('panel/configuraciones/slider*')) ? 'active' : '' }}">
-                      Slider
                     </a>
                   </li>
                   
